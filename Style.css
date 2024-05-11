@@ -6,12 +6,11 @@
     margin: 0px auto;
     height: 70px;
     width: 100%;
-    background-color: #c2dea2;
 }
 
     #header td {
         margin: 0px auto;
-        background-color: #467c39;
+        background-color: #c2dea2;
         width: 200px;
         text-align: center;
         text-decoration:none;
