@@ -6,7 +6,7 @@
     margin: 0px auto;
     height: 70px;
     width: 100%;
-    border-collapse: collapse;
+    background-color: #c2dea2;
 }
 
     #header td {
@@ -37,7 +37,9 @@ a {
 #sele {
     background-color:#467c39;
 }
-
+.ne {
+    background-color: #c2dea2;
+}
 #boja {
     color: red;
 }
