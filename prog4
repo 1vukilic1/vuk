@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Primenjene informacione tehnologije</title>
+    <link href="Style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="naslov">VEB PROGRAMIRANJE</div>
+      <table id="header">
+        <tr>
+            <td class="empty"></td>
+  <td class="ne"> <a id="boja" href="index.html">POČETNA</a></td>
+             <td class="ne"> <a href="prog4.html">PROGRAMIRANJE 4. GODINA</a></td>
+            <td class="ne"> <a href="prog.html">PROGRAMIRANJE 3. GODINA</a></td>
+              <td id="sele"> <a href="vebprog4.html">VEB PROGRAMIRANJE 4. GODINA</a></td> 
+            <td class="ne"> <a href="vebprog.html">VEB PROGRAMIRANJE 3. GODINA</a></td>
+                 <td class="empty"></td>
+        </tr>
+    </table>
+        <div id="tekst2">
+        <div id="d1">
+            <div class="p1">
+        <h2>Zadatak 1: Kalkulator</h2>
+        </div>
+        </div>
+         <input class="b2" type="button" value="Preuzmi" onclick="fun(1)">
+        <div id="tekst3">
+        <div id="d1">
+            <div class="p1">
+        <h2>Zadatak 2: Evropske države</h2>
+        </div>
+        </div>
+         <input class="b2" type="button" value="Preuzmi" onclick="fun(2)">
+         <div id="tekst4">
+        <div id="d1">
+            <div class="p1">
+        <h2>Zadatak 3: Pol Sezan</h2>
+        </div>
+        </div>
+         <input class="b2" type="button" value="Preuzmi" onclick="fun(3)">
+         <div id="tekst5">
+        <div id="d1">
+            <div class="p1">
+        <h2>Zadatak 4: TV programi</h2>
+        </div>
+        </div>
+         <input class="b2" type="button" value="Preuzmi" onclick="fun(4)">
+         <div id="tekst6">
+        <div id="d1">
+            <div class="p1">
+        <h2>Zadatak 5: NBA igrači</h2>
+        </div>
+        </div>
+         <input class="b2" type="button" value="Preuzmi" onclick="fun(5)">
+        <div id="tekst7">
+          <div id="d1">
+            <div class="p1">
+        <h2>Zadatak 6: Osvajači grand slemova</h2>
+        </div>
+       <input class="b2" type="button" value="Preuzmi" onclick="fun(6)">
+ <div id="footer">PRIMENJENE INFORMACIONE TEHNOLOGIJE</div>
+  <script>
+     function fun(x){
+         switch(x){
+             case 1:window.open("zveb/Zadatak(Kalkulator Web Forme).zip");break;
+             case 2:window.open("zveb/evropskedrzave.zip");break;
+             case 3:window.open("zveb/pol.zip");break;
+             case 4:window.open("zveb/TV PROGRAM.zip");break;
+              case 5:window.open("zveb/NBAIgraci.zip");break;
+               case 6:window.open("zveb/Osvajaci grend slemova1.zip");break;
+         }
+         
+     }
+ </script>
+</body>
+</html>
